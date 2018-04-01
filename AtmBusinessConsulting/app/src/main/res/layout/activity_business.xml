@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cursoandroid.atmbusinessconsulting.atmbusinessconsulting.BusinessActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/detalhe_empresa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/business_details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="310dp"
+        android:layout_height="372dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/standard_padding"
+            android:text="Mouna Naïm correspondente em Beirute, Líbano  Les déménageurs achèvent de dégager les sièges ronds prisés par les amateurs du petit noir et du croissant. Une jeune serveuse emballe les dernières viennoiseries qui datent de la veille. La brasserie Second Cup a fermé ses portes, mercredi 21 février. Deux des trois employés iront rejoindre les deux succursales dans la partie est de Beyrouth et à Kaslik, une vingtaine de kilomètres plus au nord. La jeune serveuse va se retrouver au chômage. Elle le dit avec le sourire, mais elle est inquiète. Où trouver du travail par ces temps de crise économique aiguë ?   Os carregadores da empresa de mudanças acabam de retirar os assentos redondos tão apreciados pelos amadores de cafezinho e do &quot;croissant&quot;. Uma jovem garçonete embrulha os últimos bolos confeitados que datam da véspera. A cervejaria Second Cup fechou suas portas na quarta-feira, 21 de fevereiro. Dois dos três empregados serão transferidos para as duas sucursais na parte leste de Beirute e em Kaslik, que fica a cerca de vinte quilômetros mais ao norte. A jovem garçonete vai amargar o desemprego. Ela faz este comentário com um sorriso, mas ela está preocupada. Onde encontrar trabalho nesses tempos de crise econômica aguda?  Le centre commercial de Beyrouth, reconstruit en un temps record après la fin de la guerre de 15 ans (1975-1990) par la société Solidere, de l'ancien premier ministre assassiné Rafic Hariri, est aujourd'hui sinistré. Il &quot;agonise&quot;, écrivait l'autre jour Hazem Al-Amine, l'un des journalistes vedettes du quotidien saoudien Al-Hayat, dont le siège régional se trouve précisément au coeur de la capitale.  O centro comercial de Beirute, que fora reconstruído num prazo recorde depois do final da guerra de 15 anos (1975-1990) pela companhia Solidere, do antigo primeiro-ministro assassinado Rafic Hariri, está hoje amplamente destruído. Ele &quot;agoniza&quot;, escrevia dias atrás Hazem Al-Amine, um dos jornalistas estrelas do diário saudita &quot;Al-Hayat&quot;, cuja sede regional se encontra precisamente no coração da capital.  Zaman, Scoozi, Balad, Karamna, Kiub's, Caspers and Gambinis... Les restaurants et autres cafés qui ont mis la clef sous la porte se comptent par dizaines. Des dizaines de commerces ont précédé ou suivi le mouvement. Malgré les crises à répétition depuis l'assassinat, il y a deux ans, de Rafic Hariri, ils avaient tous tenu bon, convaincus que toute crise a une fin. Le campement que l'opposition a dressé depuis le 1er décembre 2006, à quelques pas de leurs portes, leur a donné le coup de grâce. Tous n'ont pas des succursales sur lesquelles se replier. Des centaines, peut-être des milliers d'employés sont désormais au chômage.   O Zaman, o Scoozi, o Balad, o Karamna, o Kiub's, o Caspers and Gambinis... Os restaurantes e diversos cafés que encerraram um após o outro as suas atividades se contam às dezenas. Dezenas de comércios antecederam ou seguiram o movimento. Apesar das crises repetidas desde o assassinato, há dois anos, de Rafic Hariri, todos eles haviam conseguido agüentar o tranco, convencidos de que toda crise tem um fim. O acampamento que a oposição montou desde 1º de dezembro de 2006, a pouca distância das suas portas, foi para eles o golpe de misericórdia. Nem todos dispõem de sucursais para compensar a perda. Centenas, e possivelmente milhares de assalariados daqui para frente encaram o desemprego." />
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
